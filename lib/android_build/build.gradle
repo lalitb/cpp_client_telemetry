@@ -3,7 +3,7 @@ ext {
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
-        //google()
+        google() // to fetch com.android.tools.build:gradle
         mavenCentral()
         //maven { url 'https://maven.google.com' }
         jcenter()
@@ -20,7 +20,7 @@ buildscript {
 }
 allprojects {
     repositories {
-        //google()
+        google() // to fetch com.android.tools.build:gradle
         mavenCentral()
         //maven { url 'https://maven.google.com' }
         jcenter()
